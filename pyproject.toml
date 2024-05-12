@@ -1,0 +1,26 @@
+[project]
+name = "lancedb-tables"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Evan K", email = "ekcopersonal@gmail.com" }
+]
+dependencies = [
+    "lancedb>=0.6.13",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lancedb_tables"]
