@@ -1,15 +1,11 @@
 [project]
 name = "lancedb-tables"
-version = "0.1.0"
-description = "Add your description here"
-authors = [
-    { name = "Evan K", email = "ekcopersonal@gmail.com" }
-]
-dependencies = [
-    "lancedb>=0.6.13",
-]
+version = "0.1.1"
+description = "An embedded streaming OLAP data pipeline with LanceDB"
+authors = [{ name = "Evan K", email = "ekcopersonal@gmail.com" }]
+dependencies = ["lancedb==0.6.13"]
 readme = "README.md"
-requires-python = ">= 3.8"
+requires-python = ">= 3.12"
 
 [build-system]
 requires = ["hatchling"]
