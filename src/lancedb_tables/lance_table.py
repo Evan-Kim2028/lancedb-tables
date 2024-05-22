@@ -58,6 +58,9 @@ class LanceTable:
                 .when_not_matched_insert_all() \
                 .execute(data)
 
+            # create scalar index
+            lance_tbl.create_scalar_index(column=merge_on)
+
         except FileNotFoundError:
             # Handle the case where the table does not exist
             print(f"Creating table {table}")
