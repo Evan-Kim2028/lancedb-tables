@@ -1,6 +1,6 @@
 [project]
 name = "lancedb-tables"
-version = "0.1.1"
+version = "0.1.2"
 description = "An embedded streaming OLAP data pipeline with LanceDB"
 authors = [{ name = "Evan K", email = "ekcopersonal@gmail.com" }]
 dependencies = ["lancedb==0.6.13"]
