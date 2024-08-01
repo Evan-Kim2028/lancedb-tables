@@ -2,7 +2,6 @@ import datetime
 from dataclasses import dataclass
 import lancedb
 
-from dataclasses import dataclass
 from lancedb import DBConnection
 
 
